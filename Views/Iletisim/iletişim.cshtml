@@ -1,0 +1,17 @@
+﻿@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@model ApartDeneme.Models.iletisim
+<script src="d:\programcalismalari\programmin works\asp.net\works\apartdeneme\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js"></script>
+@{
+    Layout = null;
+}
+
+<form asp-action="iletişim" asp-controller="Iletisim" method="post">
+    <input type="text" asp-for="Ad"  placeholder="İsim" />
+    <span asp-validation-for="Ad"></span><br />
+    <input type="text" asp-for="email"  placeholder="Email" />
+    <span asp-validation-for="email"></span><br />
+    <input type="text" asp-for="sikayet"  placeholder="Sikayet" />
+    <span asp-validation-for="sikayet"></span><br />
+
+
+</form>

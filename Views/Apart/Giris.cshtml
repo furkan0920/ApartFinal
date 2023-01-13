@@ -1,0 +1,17 @@
+﻿@model ApartDeneme.Models.Giris
+@{
+    ViewData["Title"] = "Giris";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form class="form-group" method="post">
+	@Html.LabelFor(x=>x.kullaniciAdi)
+	@Html.TextBoxFor(x=>x.kullaniciAdi,new{@class="form-control"})
+	<br />
+	@Html.LabelFor(x=>x.sifre)
+	@Html.TextBoxFor(x=>x.sifre,new{@class="form-control"})
+	<br />
+	@*<input type="submit" value="Giriş" />*@
+</form>
+<a href="/Apart/ApartEkle" class="btn btn-dark">Giriş</a>
+

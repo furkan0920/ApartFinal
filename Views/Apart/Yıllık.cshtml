@@ -1,0 +1,31 @@
+﻿@using ApartDeneme.Models
+@model List<ApartEkle>
+@{
+	ViewData["Title"] = "Yıllık";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Yıllık Apartlar</h1>
+<link href="~/css/apartkutu.css" rel="stylesheet" />
+
+
+
+@foreach (var apartset in Model)
+{
+	<div class="kutu">
+		@*<div class="foto">
+			<img src=@apartset.fotograf />
+		</div>*@
+		
+		<a>İl:@apartset.il</a>
+		<a>ilçe:@apartset.ilce</a>
+		<a>Metrekare:@apartset.metreKare</a>
+		<a>Oda sayısı:@apartset.odasayısı</a>
+		<a>Fiyat:@apartset.fiyat</a>		
+		
+	</div>
+
+
+}
+
+

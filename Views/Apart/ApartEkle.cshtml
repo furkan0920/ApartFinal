@@ -1,0 +1,42 @@
+﻿@model ApartDeneme.Models.ApartEkle
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "ApartEkle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@*Tag Helper kullanimi*@
+<h2>
+	@DateTime.Now
+</h2>
+
+@*Html Helper kullanımı*@
+<form class="form-group" method="post">
+	@Html.LabelFor(x=>x.il)
+	@Html.TextBoxFor(x=>x.il,new{@class="form-control"})
+
+	@Html.LabelFor(x=>x.ilce)
+	@Html.TextBoxFor(x=>x.ilce,new{@class="form-control"})
+
+	@Html.LabelFor(x=>x.Adres)
+	@Html.TextBoxFor(x=>x.Adres,new{@class="form-control"})
+
+	@Html.LabelFor(x=>x.odasayısı)
+	@Html.TextBoxFor(x=>x.odasayısı,new{@class="form-control"})
+
+	@Html.LabelFor(x=>x.metreKare)
+	@Html.TextBoxFor(x=>x.metreKare,new{@class="form-control"})
+
+	@Html.LabelFor(x=>x.fotograf)
+	@Html.TextBoxFor(x=>x.fotograf,new{@class="form-control"})
+
+	@Html.LabelFor(x=>x.fiyat)
+	@Html.TextBoxFor(x=>x.fiyat,new{@class="form-control"})
+
+
+	<br />
+	<button class ="btn btn-info">Ekle</button>
+	<a href="/Apart/Apartlar" class="btn btn-dark">Apartlarım</a> 
+</form>
+
+

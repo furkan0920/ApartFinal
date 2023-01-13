@@ -1,0 +1,33 @@
+﻿@using ApartDeneme.Models
+@model List<ApartEkle>
+@{
+	ViewData["Title"] = "Yıllık";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Yıllık Apartlar</h1>
+
+
+<table class="table table-bordered">
+	<tr>
+		<th>il</th>
+		<th>ilçe</th>
+		<th>metrekare</th>
+		<th>odasayisi</th>
+		<th>odasayisifiyat</th>
+	</tr>
+	@foreach (var apartset in Model)
+	{
+			<tr>
+				<td>@apartset.il</td>
+				<td>@apartset.ilce</td>
+				<td>@apartset.metreKare</td>
+				<td>@apartset.odasayısı</td>
+				<td>@apartset.fiyat</td>
+			<td><a href="/Apart/ApartBilgileriGetir/@apartset.id" class="btn btn-dark" style="background-color:aquamarine">Güncelle</a>	</td>
+			<td><a href ="/Apart/ApartSil/@apartset.id" class="btn btn-dark" style="background-color:aquamarine">Sil</a>	</td>
+			
+			</tr>
+	}
+	
+</table>

@@ -1,0 +1,25 @@
+.kutu {
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+    margin-right: 100px;
+    margin-bottom:100px;
+    border: 0px solid #000;
+    border-radius: 20px;
+    background-color:cornflowerblue ;
+    float: right;
+    background-position-x: center;
+}
+.kutu.foto{
+    width:15px;
+    height:10px;
+   
+
+}
+    .kutu a {
+        margin-top: 350px;
+        margin-left: 110px;
+        font-size: 24px;
+        font-family: Georgia;
+        background-color:aliceblue;
+    }

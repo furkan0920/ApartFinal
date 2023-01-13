@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ApartDeneme
+build_property.RootNamespace = ApartDeneme
+build_property.ProjectDir = D:\ProgramCalismalari\Programmin works\Asp.Net\Works\ApartDeneme\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\ProgramCalismalari\Programmin works\Asp.Net\Works\ApartDeneme
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/ProgramCalismalari/Programmin works/Asp.Net/Works/ApartDeneme/Views/Apart/Anasayfa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBhcnRcQW5hc2F5ZmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProgramCalismalari/Programmin works/Asp.Net/Works/ApartDeneme/Views/Apart/ApartBilgileriGetir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBhcnRcQXBhcnRCaWxnaWxlcmlHZXRpci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProgramCalismalari/Programmin works/Asp.Net/Works/ApartDeneme/Views/Apart/ApartEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBhcnRcQXBhcnRFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProgramCalismalari/Programmin works/Asp.Net/Works/ApartDeneme/Views/Apart/Apartlar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBhcnRcQXBhcnRsYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProgramCalismalari/Programmin works/Asp.Net/Works/ApartDeneme/Views/Apart/Giris.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBhcnRcR2lyaXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProgramCalismalari/Programmin works/Asp.Net/Works/ApartDeneme/Views/Apart/Kayit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBhcnRcS2F5aXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProgramCalismalari/Programmin works/Asp.Net/Works/ApartDeneme/Views/Apart/Yıllık.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBhcnRcWcSxbGzEsWsuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProgramCalismalari/Programmin works/Asp.Net/Works/ApartDeneme/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProgramCalismalari/Programmin works/Asp.Net/Works/ApartDeneme/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProgramCalismalari/Programmin works/Asp.Net/Works/ApartDeneme/Views/Iletisim/iletişim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWxldGlzaW1caWxldGnFn2ltLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProgramCalismalari/Programmin works/Asp.Net/Works/ApartDeneme/Views/Sayfalar/Destek.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2F5ZmFsYXJcRGVzdGVrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProgramCalismalari/Programmin works/Asp.Net/Works/ApartDeneme/Views/Sayfalar/Haberler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2F5ZmFsYXJcSGFiZXJsZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProgramCalismalari/Programmin works/Asp.Net/Works/ApartDeneme/Views/Sayfalar/Hakkimizda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2F5ZmFsYXJcSGFra2ltaXpkYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProgramCalismalari/Programmin works/Asp.Net/Works/ApartDeneme/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProgramCalismalari/Programmin works/Asp.Net/Works/ApartDeneme/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProgramCalismalari/Programmin works/Asp.Net/Works/ApartDeneme/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProgramCalismalari/Programmin works/Asp.Net/Works/ApartDeneme/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProgramCalismalari/Programmin works/Asp.Net/Works/ApartDeneme/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vf4oo3em48

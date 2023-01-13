@@ -1,0 +1,22 @@
+﻿@model ApartDeneme.Models.KullaniciKayit
+@{
+    ViewData["Title"] = "Kayit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form class="form-group" method="post">
+	<a>İsim</a>
+	@Html.TextBoxFor(x=>x.isim,new{@class="form-control"})
+	<a>Soyisim</a>
+	@Html.TextBoxFor(x=>x.soyisim,new{@class="form-control"})
+	<a>Cinsiyet</a>
+	@Html.TextBoxFor(x=>x.cinsiyet,new{@class="form-control"})
+	<a>Kullanici Adi</a>
+	@Html.TextBoxFor(x=>x.kullaniciAdi,new{@class="form-control"})
+	<a>Parola</a>
+	@Html.TextBoxFor(x=>x.parola,new{@class="form-control"})
+	<br />
+	<button class="btn btn-dark">Kayit</button>
+
+</form>
+

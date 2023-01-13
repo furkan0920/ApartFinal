@@ -1,0 +1,43 @@
+﻿@model ApartDeneme.Models.ApartEkle
+@{
+	ViewData["Title"] = "ApartBilgileriGetir";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@*Html Helper form metotoları kullanımı ornegi*@
+
+@using (Html.BeginForm("Guncelle", "Apart", FormMethod.Post))
+{
+
+	<b>İL</b>
+
+	@Html.TextBoxFor(x=>x.il,new{@class="form-control"})
+	<br />
+	<b>İLCE</b>
+
+	@Html.TextBoxFor(x=>x.ilce,new{@class="form-control"})
+	<br />
+	<b>ADRES</b>
+
+	@Html.TextBoxFor(x=>x.Adres,new{@class="form-control"})
+	<br />
+	<b>ODA SAYISI</b>
+
+	@Html.TextBoxFor(x=>x.odasayısı,new{@class="form-control"})
+	<br />
+	<b>METREKARE</b>
+
+	@Html.TextBoxFor(x=>x.metreKare,new{@class="form-control"})
+	<br />
+	<b>FOTOĞRAF</b>
+
+	@Html.TextBoxFor(x=>x.fotograf,new{@class="form-control"})
+	<br />
+
+	<b>FİYAT</b>
+
+	@Html.TextBoxFor(x=>x.fiyat,new{@class="form-control"})
+	<br />
+
+
+	<button class="btn btn-info" style="background-color:blueviolet">Guncelle</button>
+}
